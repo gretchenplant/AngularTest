@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { ArticleListComponent, ArticleMetaComponent, ArticlePreviewComponent } from './article-helpers';
 import { FavoriteButtonComponent, FollowButtonComponent } from './buttons';
-import { ListErrorsComponent } from './list-errors.component';
+import { ListErrorsComponent } from './components/list-errors.component';
 import { ShowAuthedDirective } from './show-authed.directive';
 import { FooterComponent, HeaderComponent } from './layout';
 
@@ -15,7 +15,6 @@ import { FooterComponent, HeaderComponent } from './layout';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
-    SharedModule,
     FooterComponent,
     HeaderComponent,
   ],
